@@ -11,7 +11,7 @@ echo 1. Go to https://github.com/new and create a new repository
 echo    (e.g., named 'humanify-ai').
 echo 2. Copy the repository URL (e.g., https://github.com/YOUR_USERNAME/humanify-ai.git).
 echo.
-set /p REPO_URL="Paste your GitHub Repository URL here: "
+set /p REPO_URL="https://github.com/riyanainani/humanify-ai.git "
 
 if "%REPO_URL%"=="" (
     echo No URL entered. Exiting.
@@ -41,3 +41,4 @@ echo.
 echo  Your app will be live at: https://humanify-ai.vercel.app
 echo ========================================================
 pause
+

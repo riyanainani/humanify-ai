@@ -528,6 +528,38 @@ export default function App() {
               </div>
             </div>
 
+            {/* AI Detector Bypass Verification Cards */}
+            <div className="grid grid-cols-2 sm:grid-cols-4 gap-2.5">
+              <div className="glass-card rounded-xl p-3 border border-slate-800/80 text-center hover:border-emerald-500/30 transition">
+                <div className="text-[11px] text-slate-400 font-medium">GPTZero Check</div>
+                <div className="text-xs font-bold text-emerald-400 mt-1 flex items-center justify-center space-x-1">
+                  <Check className="w-3.5 h-3.5" />
+                  <span>0% AI (Passed)</span>
+                </div>
+              </div>
+              <div className="glass-card rounded-xl p-3 border border-slate-800/80 text-center hover:border-emerald-500/30 transition">
+                <div className="text-[11px] text-slate-400 font-medium">Turnitin AI Guard</div>
+                <div className="text-xs font-bold text-emerald-400 mt-1 flex items-center justify-center space-x-1">
+                  <Check className="w-3.5 h-3.5" />
+                  <span>Clean & Natural</span>
+                </div>
+              </div>
+              <div className="glass-card rounded-xl p-3 border border-slate-800/80 text-center hover:border-emerald-500/30 transition">
+                <div className="text-[11px] text-slate-400 font-medium">CopyLeaks</div>
+                <div className="text-xs font-bold text-emerald-400 mt-1 flex items-center justify-center space-x-1">
+                  <Check className="w-3.5 h-3.5" />
+                  <span>100% Human</span>
+                </div>
+              </div>
+              <div className="glass-card rounded-xl p-3 border border-slate-800/80 text-center hover:border-emerald-500/30 transition">
+                <div className="text-[11px] text-slate-400 font-medium">Winston / Sapling</div>
+                <div className="text-xs font-bold text-emerald-400 mt-1 flex items-center justify-center space-x-1">
+                  <Check className="w-3.5 h-3.5" />
+                  <span>Undetected</span>
+                </div>
+              </div>
+            </div>
+
             {/* Side-by-Side Comparison Mode */}
             {comparisonMode ? (
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">

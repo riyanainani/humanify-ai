@@ -358,3 +358,4 @@ async def process_humanify_stream(req: HumanifyRequest):
         yield f"data: {json.dumps({'event': 'finished', 'summary': summary})}\n\n"
 
     return StreamingResponse(event_generator(), media_type="text/event-stream")
+
